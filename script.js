@@ -11,8 +11,8 @@ $inputTitle.on('keyup', toggleDisableState);
 $('.section__ideas').on('click', '.delete-x', deleteIdeas);
 $('.section__ideas').on('click', '.upvote', upvoteIdea);
 $('.section__ideas').on('click', '.downvote', downvoteIdea);
-$('.section__ideas').on('keydown', '.idea-title', persistTitle);
-$('.section__ideas').on('keydown', '.idea-body', persistBody);
+$('.section__ideas').on('keyup', '.idea-title', persistChanges);
+$('.section__ideas').on('keyup', '.idea-body', persistChanges);
 $('.section__search-field').on('keyup', searchIdeas);
 
 function saveIdea(event) {
@@ -106,7 +106,7 @@ function downvoteIdea() {
   changeStorageQuality(this)
 }
 
-function persistTitle(e) {
+function persistChanges(e) {
   if (e.keyCode === 13) {
     e.preventDefault();
     $inputTitle.focus();
@@ -114,20 +114,8 @@ function persistTitle(e) {
   var id = $(this).closest('.idea-cards').attr('id');
   var idea = localStorage.getItem(id);
   idea = JSON.parse(idea);
-  idea.title = $(this).text();
-  var stringifiedIdea = JSON.stringify(idea)
-  localStorage.setItem(id, stringifiedIdea);
-}
-
-function persistBody(e) {
-  if (e.keyCode === 13) {
-  e.preventDefault();
-  $inputTitle.focus();
-  }
-  var id = $(this).closest('.idea-cards').attr('id');
-  var idea = localStorage.getItem(id);
-  idea = JSON.parse(idea);
-  idea.body = $(this).text();
+  idea.title = $('.idea-title').text();
+  idea.body = $('.idea-body').text();
   var stringifiedIdea = JSON.stringify(idea)
   localStorage.setItem(id, stringifiedIdea);
 }
@@ -137,11 +125,9 @@ function searchIdeas() {
   search('.quality');
   search('.idea-body');
   search('.idea-title');
-
 }
 
 function search(selector) {
-  console.log(selector)
   var $input = $('.section__search-field').val();
   $input = $input.toUpperCase();
   var array = $(selector);

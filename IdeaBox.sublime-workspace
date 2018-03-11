@@ -197,44 +197,10 @@
 			}
 		},
 		{
-			"file": "css/idea-list.css",
-			"settings":
-			{
-				"buffer_size": 356,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/idea-cards.css",
-			"settings":
-			{
-				"buffer_size": 1341,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/main-form.css",
-			"settings":
-			{
-				"buffer_size": 832,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/responsive.css",
-			"settings":
-			{
-				"buffer_size": 340,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 5774,
+				"buffer_size": 4667,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -302,11 +268,13 @@
 	],
 	"file_history":
 	[
+		"/Users/ericjungbluth/Documents/Turing/Mod1/IdeaBox/css/responsive.css",
+		"/Users/ericjungbluth/Documents/Turing/Mod1/IdeaBox/css/main-form.css",
+		"/Users/ericjungbluth/Documents/Turing/Mod1/IdeaBox/css/idea-cards.css",
+		"/Users/ericjungbluth/Documents/Turing/Mod1/IdeaBox/css/idea-list.css",
 		"/Users/ericjungbluth/Documents/Turing/Mod1/Dog Party/partystyle.css",
 		"/Users/ericjungbluth/Documents/Turing/Mod1/javascript-foundations/mythical-creatures/test/wizard-test.js",
 		"/Users/ericjungbluth/Documents/Turing/Mod1/javascript-foundations/mythical-creatures/exercises/wizard.js",
-		"/Users/ericjungbluth/Documents/Turing/Mod1/IdeaBox/css/idea-list.css",
-		"/Users/ericjungbluth/Documents/Turing/Mod1/IdeaBox/css/main-form.css",
 		"/Users/ericjungbluth/Documents/Turing/Mod1/IdeaBox/styles.css",
 		"/Users/ericjungbluth/Documents/Turing/Mod1/Linked List/style.css",
 		"/Users/ericjungbluth/Documents/Turing/Mod1/javascript-foundations/mythical-creatures/exercises/vampire.js",
@@ -357,7 +325,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -387,127 +355,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/idea-list.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								128,
-								128
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/idea-cards.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1341,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								603,
-								603
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 73.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/main-form.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 832,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								144
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 247.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/responsive.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -517,20 +365,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 1,
 					"file": "script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5774,
+						"buffer_size": 4667,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4479,
-								4479
+								4494,
+								4502
 							]
 						],
 						"settings":
@@ -540,10 +388,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 117.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -625,7 +473,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
