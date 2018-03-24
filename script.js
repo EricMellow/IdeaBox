@@ -117,6 +117,7 @@ function persistChanges(e) {
   idea.title = $('.idea-title').text();
   idea.body = $('.idea-body').text();
   var stringifiedIdea = JSON.stringify(idea)
+  
   localStorage.setItem(id, stringifiedIdea);
 }
 
